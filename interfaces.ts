@@ -26,12 +26,12 @@ console.log(tlou.title)
 if (tlou.getSimilars) tlou.getSimilars('titulo busca')
 
 
-interface DLC extends IGame {
+interface DLCg extends IGame {
   originalGame: IGame
   newContent: string[]
 }
 
-const newDLC: DLC = {
+const newDLC: DLCg = {
   title: 'Titulo2',
   description: 'descricao2',
   genre: 'genre2',
